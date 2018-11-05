@@ -28,6 +28,7 @@
     "url": "https://github.com/chemitaxis/semantic.git"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/commit-analyzer": "github:semantic-release/commit-analyzer",
     "@semantic-release/git": "github:semantic-release/git",
     "@semantic-release/github": "github:semantic-release/github",
@@ -41,6 +42,7 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
       [
         "@semantic-release/npm",
         {
